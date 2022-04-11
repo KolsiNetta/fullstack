@@ -1,0 +1,11 @@
+note over selain:
+käyttäjä kirjoittaa uuden muistiinpanon tekstikenttään ja painaa tallenna -nappia
+
+selain-->palvelin: HTTP POST  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: 201 created
+
+note over selain:
+palvelin ei pyydä uudelleenohjausta vaan selain pysyy samalla sivulla ja muita HTTP-pyyntöjä ei suoriteta
+
+note over selain:
+uusi muistiinpano ei tallennu tietokantaan
